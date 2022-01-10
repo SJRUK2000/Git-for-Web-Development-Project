@@ -21,8 +21,16 @@ Welcome to day 1 at BloomTech, today we are going to spend time setting up your 
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en) doc short for documentation are the instructions on how to use a languge, or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your google skills. 
 
 1. What is git? What is the difference between git and GitHub?
+Git is an Open Source Distributed Version Control System
+GitHub is a For-Profit Company that offers a Cloud-Based Git Hosting Service with over 40 million Users. 
 2. Why do we create a branch? 
+Inorder to create and work on a section of code without changing or interupting the main source code
 3. What is the purpose of a pull request? 
-4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
+Pull requests allow you to convey to others the changes you are making on a sepcific branch of a repo on GitHub
+4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main.
+git checkout, you must specify the branch youd like to move to
 5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+git pull actually runs both git fetch and then git merge. 
+git fetch will download content from a specific remote repo, then git merge is executed to merge the remote content into a new local commit
 6. What is a merge conflict? How do you resolve a merge conflict? 
+Merge conflicts arrise when you merge branches that have competing commits, you can resolve this on the 'pull requests' page in your repo. you can then address the competing lines of code that have conflict markers 
